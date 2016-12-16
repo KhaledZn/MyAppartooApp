@@ -1,0 +1,12 @@
+services:
+    myprojectappartoouser.form_registration:
+        class: MyProjectAppartoo\UserBundle\Form\RegistrationType
+        tags:
+            - { name: form.type, alias: MyProjectAppartoo_user_registration } 
+        
+#    my_project_appartoo_user.example:
+#        class: MyProjectAppartoo\UserBundle\Example
+#        arguments: [@service_id, "plain_value", %parameter%]
+        
+
+

@@ -1,0 +1,3 @@
+my_project_appartoo_repertoire_homepage:
+    path:     /hello/{name}
+    defaults: { _controller: MyProjectAppartooRepertoireBundle:Default:index }
